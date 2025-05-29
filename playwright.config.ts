@@ -31,7 +31,7 @@ export default defineConfig({
     }], ['list']
   ],
   use: {
-    headless: false, 
+    headless: true, 
     trace: 'on',
     screenshot: 'on',
     video: 'on'
